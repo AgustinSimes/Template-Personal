@@ -1,0 +1,462 @@
+:root {
+    --fuente: 'Roboto', sans-serif;
+}
+.header .menu{
+    color: white;
+    text-align: center;
+    padding: 1em;
+    margin: 1em;
+    font-weight: 500;
+}
+.menu a{
+    color: white;
+    margin: 1em;
+}
+
+.hello{
+    padding: 20px;
+    font-size: 30px;
+    background-color: #0bceaf;
+    width: 200px;
+    color: white;
+    border-radius: 35px 35px 35px 0px ;
+    margin-bottom: 1em;
+    
+}
+.hola{
+    display: flex;
+}
+.item{
+    width: 50%;
+    padding: 1em;
+    margin-left: 2em;
+}
+.item .icon{
+    font-size: 30px;
+    margin-left: -1em;
+}
+.item-last{
+    display: inline-block;
+    position: relative;
+    width: 450px;
+    height: 450px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 15px solid black;
+}
+.hola i{
+    margin: 1em;
+}
+.hola p{
+    font-weight: 500;
+}
+.hola img{
+    object-fit: contain;
+    width: auto;
+    height: 100%;
+    margin-left: -50%;
+}
+
+
+.hero {
+    height: 100vh;
+    background-image: url(/img/escritorio.jpg);
+    max-width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    background-position: 0 0;
+    background-size: 100% 100%;
+    transition: background-position .3s ease;
+    color: white;    
+}
+
+.hero1{
+    height: 70vh;
+    background-image: url(/img/escritorio.jpg);
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    background-position: 0 0;
+    background-size: 100% 100%;
+    transition: background-position .3s ease;
+    text-align: left;
+    color: white;
+    padding: 3em;
+}
+.inner{
+    padding-top: 2em;
+    
+}
+.hero1 button{
+    display: block;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    width: 150px;
+    height: 35px;
+    background-color: #0bceaf;
+    border-radius: 1em;
+    margin-top: 2em;
+    border: none;
+}
+
+.img-container{
+    background-color: #100e17;
+    color: white;
+    display: flex;
+    justify-content: right;
+    
+}
+.info span{
+    font-size: 20px;
+    border: 1px solid #0bceaf;
+    border-radius: 5px;
+    padding: .2em;
+    margin: .5em;
+    margin-top: .5em;
+    margin-bottom: 1em;
+
+}
+.info input{
+width: 165px;
+height: 35px;
+font-size: 25px;
+font-weight: 400;
+background-color: #0bceaf;
+color: white;
+border-radius: 1em;
+border: none;
+margin-top: 1em;
+}
+.info p{
+    font-size: 25px;
+    font-weight: 400;
+    background-color: ;
+    border-radius: 1em;
+    border: none;
+}
+
+.album{
+    background-color: #100e17;
+    display: grid;
+    color: white;
+    text-align: center;
+}
+.album i{
+    font-size: 30px;
+}
+
+.project{
+    text-align: left;
+    font-weight: 500;
+    margin-top: 1em;
+    margin: 1em;
+    margin-left: 1em;
+}
+.project h1{
+    text-align: center;
+}
+.project span{
+    color: #0bceaf;
+    font-weight: 500;
+}
+.project .quote{
+    font-weight: 400;
+    font-style: oblique;
+}
+.project img{    
+    float: left;
+    max-width: 100%;
+    width: 600px;
+    height: 350px;
+    margin-left: 2em;
+    margin-right: .5em;
+    margin-top: 3em;
+}
+.project button{
+    width: 150px;
+    height: 30px;
+    background-color: #0bceaf;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    font-weight: 500;
+    margin: 1em;
+}
+
+.flex-container{
+    display: flex;
+    color: white;
+    justify-content: center;  
+}
+.flex-item{
+    width: 300px;
+    height: 150px;
+    background-color: rgb(73, 70, 70);
+    text-align: center;
+    margin: .5em;
+    box-shadow: 10px 10 px black;
+}
+.flex-container1{
+    display:grid;
+    text-align: left;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(100px 150px 150px 150px 150px 150px 150px 150px);
+    font-size: 75%;
+    padding-left:1em;
+    padding-top: 1em;
+}
+.flex-container1 span{
+    color: #0bceaf;
+    font-weight: 500;
+}
+.flex-container1 p{
+    font-weight: 500;
+    
+}
+.flex-item1{
+    background-color: #414242;
+    width: 500px;
+    height: 155px;
+    margin: 1em;
+    object-fit: contain;
+    padding-left: .5em;
+    padding-block-end: .5em;
+}
+.pricing{
+    display: inline;
+    text-align: center;
+}
+.flex-item2{
+display: inline-block;
+width: 275px;
+height: 320px;
+background-color: rgb(73, 70, 70);
+text-align: center;
+margin: 1em;
+padding: 1em;
+justify-content: space-between;
+}
+.flex-container2 span{
+    color: #0bceaf;
+    font-weight: 600;
+    font-size: 30px;
+}
+.flex-container2 button{
+    background-color: #0bceaf;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 1em;
+    border: none;
+    margin-top: 1em;
+}
+.card-body{
+    background-color: rgb(68, 67, 67);
+   
+}
+.featured{
+    background-color: #1a1820;
+    padding: 1em;
+}
+.featured span{
+    color: #0bceaf;
+}
+.featured a{
+    color: #0bceaf;
+}
+.flex-item3{
+    display: inline-block;
+    width: 275px;
+    height: 375px;
+    background-color: rgb(73, 70, 70);
+    align-items: center;
+    margin: 2em;
+    font-size: 70%;
+    border-radius: 10px 10px 0px 0px;
+    border: none;
+}
+.review{
+    margin: 1em;
+}
+.review i{
+    margin: 5px;
+    color: #0bceaf;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.flex-item4{
+    display: inline-block;
+    width: 250px;
+    height: 310px;
+    background-color: #414242;
+    text-align: center;
+    margin: 1em;
+}
+.flex-item4 .img{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-left: 4.5em;
+    margin-top: .5em;
+    border: 4px solid #0bceaf;
+}
+.img img{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.recent{
+    text-align: center;
+}
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    grid-template-rows: repeat(3, 400px);
+    padding: .5em;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+.first{
+    max-width: 100%;
+    width: 360px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 1em;
+}
+.second{
+    max-width: 100%;
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 1em;
+}
+.third{
+    max-width: 100%;
+    width: 360px;
+    height: 390px;
+    object-fit: cover;
+    border-radius: 1em;
+}
+.fourth{
+    max-width: 100%;
+    width: 360px;
+    height: 300px;
+    object-fit: contain;
+    border-radius: 1em;
+}
+.five{
+    max-width: 100%;
+    width: 330px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 1em;
+}
+.six{
+    max-width: 100%;
+    width: 360px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 1em;
+}
+.seven{
+    max-width: 100%;
+    width: 370px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 1em;
+}
+.eight{
+    max-width: 100%;
+    width: 350px;
+    height: 390px;
+    object-fit: cover;
+    border-radius: 1em;
+}
+.nine{
+    max-width: 100%;
+    width: 360px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 1em;
+}
+#red{
+    width: 275px;
+    height: 150px;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+    
+}
+.contenedor{
+    background-color: #100e17;
+    color: white;
+}
+.contact{
+    display: flex;
+    background-image: url(/img/mundo.jpg);
+    color: white;
+    height: 100vh;
+}
+
+.grid-container{
+    display:grid;
+    width: 50%;
+    text-align: left;
+    justify-content: stretch;
+    grid-template-columns: 200px 500px;
+    grid-template-rows: repeat(3, 100px);
+    row-gap: 1em;
+    margin-left: 1em;
+    margin-top: 4em;
+    padding: 1em;
+}
+.grid-item{
+    grid-area: 1 / 2;
+    background-color: #1a1820;
+}
+.grid-item5-mail{
+    
+    background-color: #1a1820;
+    
+}
+.grid-item5-phone{
+    background-color: #1a1820;
+}
+.grid-container .icon{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 3em;
+    border: 2px solid #0bceaf;
+    background-color: #1a1820;
+}
+.form{
+    width: 500px;
+    height: fit-content;
+    font-size: 30px;
+    border-radius: 10px;
+    margin: 2em;
+}
+.form input{
+    width: 500px;
+    height: 50px;
+    display: inline-block;
+    border: 2px solid gray;
+    border-radius: .5em;
+    background: local;
+    color: white;
+}
+.form .mensaje{
+    height: 150px;
+}
+.form input[type="submit"]{
+    background-color: #0bceaf;
+    color: white;
+    border-radius: 3em;
+    font-weight: 400;
+}
