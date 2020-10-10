@@ -460,3 +460,15 @@ justify-content: space-between;
     border-radius: 3em;
     font-weight: 400;
 }
+.footer{
+    display: flex;
+    font-weight: 400;
+    padding: 1em;
+    margin: 1em;
+    text-align: left;
+}
+.footer i{
+    margin: 1em;
+    display: inline-flex;
+    font-size: 20px;
+}
