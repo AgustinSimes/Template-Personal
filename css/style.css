@@ -68,6 +68,7 @@
     background-size: 100% 100%;
     transition: background-position .3s ease;
     color: white;    
+    padding: 1em;
 }
 
 .hero1{
@@ -81,6 +82,9 @@
     text-align: left;
     color: white;
     padding: 3em;
+    margin-top: .5em;
+    margin-bottom: 1em;
+
 }
 .inner{
     padding-top: 2em;
@@ -106,6 +110,13 @@
     justify-content: right;
     
 }
+.info{
+    padding-top: 1em;
+    margin-bottom: 1em;
+}
+.info h4{
+    margin-bottom: 1em;
+}
 .info span{
     font-size: 20px;
     border: 1px solid #0bceaf;
@@ -123,14 +134,13 @@ font-size: 25px;
 font-weight: 400;
 background-color: #0bceaf;
 color: white;
-border-radius: 1em;
+border-radius: 15px;
 border: none;
-margin-top: 1em;
+margin-top: 2em;
 }
 .info p{
     font-size: 25px;
     font-weight: 400;
-    background-color: ;
     border-radius: 1em;
     border: none;
 }
@@ -140,6 +150,9 @@ margin-top: 1em;
     display: grid;
     color: white;
     text-align: center;
+    margin: 1em;
+    padding: 2em;
+    
 }
 .album i{
     font-size: 30px;
@@ -149,8 +162,6 @@ margin-top: 1em;
     text-align: left;
     font-weight: 500;
     margin-top: 1em;
-    margin: 1em;
-    margin-left: 1em;
 }
 .project h1{
     text-align: center;
@@ -226,6 +237,8 @@ margin-top: 1em;
 .pricing{
     display: inline;
     text-align: center;
+    padding: 1em;
+    margin-bottom: 2em;
 }
 .flex-item2{
 display: inline-block;
@@ -233,14 +246,17 @@ width: 275px;
 height: 320px;
 background-color: rgb(73, 70, 70);
 text-align: center;
-margin: 1em;
+margin: 2em;
+margin-bottom: 100px;
 padding: 1em;
 justify-content: space-between;
+
 }
 .flex-container2 span{
     color: #0bceaf;
     font-weight: 600;
     font-size: 30px;
+    padding: 1em;
 }
 .flex-container2 button{
     background-color: #0bceaf;
@@ -258,7 +274,7 @@ justify-content: space-between;
 }
 .featured{
     background-color: #1a1820;
-    padding: 1em;
+    padding: 3em;
 }
 .featured span{
     color: #0bceaf;
@@ -276,9 +292,11 @@ justify-content: space-between;
     font-size: 70%;
     border-radius: 10px 10px 0px 0px;
     border: none;
+    padding-bottom: 4em;
 }
 .review{
     margin: 1em;
+    padding: 2.5em;
 }
 .review i{
     margin: 5px;
@@ -292,7 +310,7 @@ justify-content: space-between;
     height: 310px;
     background-color: #414242;
     text-align: center;
-    margin: 1em;
+    margin: 2em;
 }
 .flex-item4 .img{
     position: relative;
@@ -316,7 +334,7 @@ justify-content: space-between;
     display: grid;
     grid-template-columns: repeat(3, 370px);
     grid-template-rows: repeat(3, 400px);
-    padding: .5em;
+    padding: 3em;
     margin: auto;
     align-items: center;
     justify-content: center;
@@ -395,6 +413,7 @@ justify-content: space-between;
 .contenedor{
     background-color: #100e17;
     color: white;
+    padding: 1em;
 }
 .contact{
     display: flex;
@@ -470,5 +489,5 @@ justify-content: space-between;
 .footer i{
     margin: 1em;
     display: inline-flex;
-    font-size: 20px;
+    font-size: 20px; 
 }
