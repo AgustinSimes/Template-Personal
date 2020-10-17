@@ -108,11 +108,13 @@
     color: white;
     display: flex;
     justify-content: right;
-    
+    padding: 4em;
+    padding-bottom: 3em;
 }
 .info{
-    padding-top: 1em;
+    padding-top: 3em;
     margin-bottom: 1em;
+    padding-bottom: 3em;
 }
 .info h4{
     margin-bottom: 1em;
@@ -151,23 +153,29 @@ margin-top: 2em;
     color: white;
     text-align: center;
     margin: 1em;
-    padding: 2em;
     
 }
 .album i{
     font-size: 30px;
+    margin: .5em;
+}
+.album h2{
+    padding: 1em;
 }
 
 .project{
     text-align: left;
     font-weight: 500;
-    margin-top: 1em;
+    margin-top: 3em;
+    margin-left: 3em;
 }
 .project h1{
     text-align: center;
+    margin-bottom: 1em;
 }
 .project span{
     color: #0bceaf;
+    font-size: 20px;
     font-weight: 500;
 }
 .project .quote{
@@ -179,8 +187,8 @@ margin-top: 2em;
     max-width: 100%;
     width: 600px;
     height: 350px;
-    margin-left: 2em;
-    margin-right: .5em;
+    margin-left: 1em;
+    margin-right: 1.5em;
     margin-top: 3em;
 }
 .project button{
@@ -197,15 +205,20 @@ margin-top: 2em;
 .flex-container{
     display: flex;
     color: white;
-    justify-content: center;  
+    justify-content: center;
+    margin-bottom: 2em;
+    margin-top: 1em;
+    margin-left: 2em;
 }
 .flex-item{
-    width: 300px;
-    height: 150px;
+    width: 350px;
+    height: 200px;
     background-color: rgb(73, 70, 70);
-    text-align: center;
-    margin: .5em;
-    box-shadow: 10px 10 px black;
+    text-align: left;
+    margin: 2em;
+    margin-left: 1em;
+    margin-top: 1em;
+    padding-left: 1em;
 }
 .flex-container1{
     display:grid;
@@ -214,8 +227,7 @@ margin-top: 2em;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(100px 150px 150px 150px 150px 150px 150px 150px);
     font-size: 75%;
-    padding-left:1em;
-    padding-top: 1em;
+    padding-top: 2em;
 }
 .flex-container1 span{
     color: #0bceaf;
@@ -225,19 +237,21 @@ margin-top: 2em;
     font-weight: 500;
     
 }
+.flex-container1 h1{
+    padding: 1em;
+}
 .flex-item1{
     background-color: #414242;
     width: 500px;
     height: 155px;
     margin: 1em;
+    padding-left: 1em;
     object-fit: contain;
-    padding-left: .5em;
-    padding-block-end: .5em;
 }
 .pricing{
     display: inline;
     text-align: center;
-    padding: 1em;
+    padding: 3em;
     margin-bottom: 2em;
 }
 .flex-item2{
@@ -246,11 +260,15 @@ width: 275px;
 height: 320px;
 background-color: rgb(73, 70, 70);
 text-align: center;
-margin: 2em;
+margin: 1em;
 margin-bottom: 100px;
 padding: 1em;
 justify-content: space-between;
 
+}
+.flex-container2{
+    padding: 2em;
+    align-content: space-between;
 }
 .flex-container2 span{
     color: #0bceaf;
@@ -311,6 +329,7 @@ justify-content: space-between;
     background-color: #414242;
     text-align: center;
     margin: 2em;
+    margin-top: 2em;
 }
 .flex-item4 .img{
     position: relative;
@@ -329,6 +348,7 @@ justify-content: space-between;
 }
 .recent{
     text-align: center;
+    padding: 4em;
 }
 .galeria{
     display: grid;
